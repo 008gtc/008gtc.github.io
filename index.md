@@ -10,8 +10,4 @@ Here you’ll find insights and articles about industrial technology, manufactur
 
 ## 最新文章列表
 
-<ul>
-{% for post in site.posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}</li>
-{% endfor %}
-</ul>
+- [A Practical Guide to Specifying Drywall Screws for Installations](./_posts/2025-10-27-A-Practical-Guide-to-Specifying-Drywall-Screws-for-Installations.html) - 2025-10-27
