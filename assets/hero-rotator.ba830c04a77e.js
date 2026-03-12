@@ -14,6 +14,8 @@ rotators.forEach((rotator) => {
     slides.forEach((slide, idx) => {
       slide.classList.toggle("opacity-100", idx === nextIndex);
       slide.classList.toggle("opacity-0", idx !== nextIndex);
+      slide.classList.toggle("pointer-events-auto", idx === nextIndex);
+      slide.classList.toggle("pointer-events-none", idx !== nextIndex);
     });
   };
 

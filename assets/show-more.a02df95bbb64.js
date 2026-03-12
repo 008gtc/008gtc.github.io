@@ -16,7 +16,9 @@ const toggleAllArticles = (event) => {
     item.classList.toggle("hidden", expanded);
   });
 
-  button.textContent = expanded ? "Show more" : "Show less";
+  const collapsedLabel = button.getAttribute("data-label-collapsed") || "Show more";
+  const expandedLabel = button.getAttribute("data-label-expanded") || "Show less";
+  button.textContent = expanded ? collapsedLabel : expandedLabel;
   button.setAttribute("aria-expanded", expanded ? "false" : "true");
 };
 
