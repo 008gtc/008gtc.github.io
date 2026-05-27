@@ -1,5 +1,152 @@
 [
   {
+    "title": "What Is a Flexible Lead NTC Thermistor and How Does It Work?",
+    "description": "Learn how flexible lead NTC thermistors work, why they are used in remote temperature sensing, key specifications to consider, and common applications.",
+    "category": "Industries",
+    "subcategory": "Consumer Electronics and Home Appliances",
+    "path": "/industries/consumer-electronics-and-home-appliances/what-is-a-flexible-lead-ntc-thermistor-and-how-does-it-work/"
+  },
+  {
+    "title": "OEM Aluminum Ladder Types Explained - Folding, Straight, Extension and Stepladders",
+    "description": "Learn the differences between OEM aluminum folding ladders, straight ladders, extension ladders, and stepladders, including use cases, strengths and selection considerations.",
+    "category": "Industries",
+    "subcategory": "Building Materials and Industrial Products",
+    "path": "/industries/building-materials-and-industrial-products/oem-aluminum-ladder-types-explained-folding-straight-extension-and-stepladders/"
+  },
+  {
+    "title": "Commercial Ultrasonic Dishwasher Guide - A Smarter Cleaning Solution for Modern Foodservice Operations",
+    "description": "A procurement-focused guide to commercial ultrasonic dishwasher solutions for modern foodservice operations, including applications, workflow value, comparison points, and supplier evaluation criteria.",
+    "category": "Industries",
+    "subcategory": "Other Industries",
+    "path": "/industries/other-industries/commercial-ultrasonic-dishwasher-guide-a-smarter-cleaning-solution-for-modern-foodservice-operations/"
+  },
+  {
+    "title": "Global Apparel Manufacturing Trends - Supply Chain Shifts and Agile Sourcing Strategies",
+    "description": "Explore how global apparel manufacturing is evolving toward multi-hub production, agile sourcing, and supply chain diversification. Learn how UKL Group supports global brands with flexible OEM/ODM apparel manufacturing solutions.",
+    "category": "Industries",
+    "subcategory": "Other Industries",
+    "path": "/industries/other-industries/global-apparel-manufacturing-trends-supply-chain-shifts-and-agile-sourcing-strategies/"
+  },
+  {
+    "title": "Why Top Foam Roller Manufacturers Avoid Harmful Plasticizers- A Practical Sourcing Guide for B2B Buyers",
+    "description": "Learn why serious foam roller manufacturers avoid harmful plasticizers, how material choices affect compliance and product quality, and what buyers should check before sourcing a yoga massage roller.",
+    "category": "Industries",
+    "subcategory": "Other Industries",
+    "path": "/industries/other-industries/why-top-foam-roller-manufacturers-avoid-harmful-plasticizers-a-practical-sourcing-guide-for-b2b-buyers/"
+  },
+  {
+    "title": "Custom CNC Slot Car Hubs - OEM/ODM Sourcing Guide from Taiwan",
+    "description": "Learn how OEM/ODM buyers source precision CNC-machined slot car hubs from Taiwan. Covers materials, tolerances, surface finishing, and what to look for in a supplier.",
+    "category": "Industries",
+    "subcategory": "Precision Machining and Metal Processing",
+    "path": "/industries/precision-machining-and-metal-processing/custom-cnc-slot-car-hubs-oemodm-sourcing-guide-from-taiwan/"
+  },
+  {
+    "title": "How OEM and ODM Monitor Arm Manufacturers Support Ergonomic Workspace Projects",
+    "description": "A neutral overview of monitor arm manufacturing, ergonomic design, OEM and ODM services, and TAA related sourcing considerations for commercial and institutional buyers.",
+    "category": "Industries",
+    "subcategory": "Biotechnology and Medical Industry",
+    "path": "/industries/biotechnology-and-medical-industry/how-oem-and-odm-monitor-arm-manufacturers-support-ergonomic-workspace-projects/"
+  },
+  {
+    "title": "Why Construction Screw Design Must Evolve with Modular and Light Steel Building Trends",
+    "description": "A practical guide for procurement teams, project owners, and construction professionals on why modern modular and light steel projects require better fastening strategies, and how to evaluate OEM / ODM construction screw solutions.",
+    "category": "Industries",
+    "subcategory": "Building Materials and Industrial Products",
+    "path": "/industries/building-materials-and-industrial-products/why-construction-screw-design-must-evolve-with-modular-and-light-steel-building-trends/"
+  },
+  {
+    "title": "How OEM and ODM Monitor Arm Manufacturers Support Ergonomic Workspace Projects",
+    "description": "A neutral overview of monitor arm manufacturing, ergonomic design, OEM and ODM services, and TAA related sourcing considerations for commercial and institutional buyers.",
+    "category": "Industries",
+    "subcategory": "Chemical and Materials Industry",
+    "path": "/industries/chemical-and-materials-industry/how-oem-and-odm-monitor-arm-manufacturers-support-ergonomic-workspace-projects/"
+  },
+  {
+    "title": "Custom Charging Carts in Education and Healthcare Environments",
+    "description": "Learn how custom charging carts support education and healthcare environments with smart charging, USB-C PD, and flexible OEM configurations.",
+    "category": "Industries",
+    "subcategory": "Consumer Electronics and Home Appliances",
+    "path": "/industries/consumer-electronics-and-home-appliances/custom-charging-carts-in-education-and-healthcare-environments/"
+  },
+  {
+    "title": "How to Evaluate a Water Purifier OEM ODM Partner for Long Term Manufacturing Success",
+    "description": "Learn how to assess a water purifier OEM ODM partner through design capability, quality assurance, production capacity, lead time reliability, and after sales support.",
+    "category": "Industries",
+    "subcategory": "Consumer Electronics and Home Appliances",
+    "path": "/industries/consumer-electronics-and-home-appliances/how-to-evaluate-a-water-purifier-oem-odm-partner-for-long-term-manufacturing-success/"
+  },
+  {
+    "title": "Concentrated Syrup OEM Guide for Beverage Brands, Cafes, and Foodservice Buyers",
+    "description": "Explore how concentrated tea syrup and mocktail syrup support lower freight costs, easier beverage preparation, and scalable OEM development for foodservice and beverage brands.",
+    "category": "Industries",
+    "subcategory": "Food and Beverage Processing",
+    "path": "/industries/food-and-beverage-processing/concentrated-syrup-oem-guide-for-beverage-brands-cafes-and-foodservice-buyers/"
+  },
+  {
+    "title": "Compatible Toner Cartridges - Quality, Yield, and Key Buying Considerations",
+    "description": "A clear overview of compatible toner cartridges, including print quality, page yield, compatibility, common risks, and the factors buyers should review before sourcing.",
+    "category": "Industries",
+    "subcategory": "Other Industries",
+    "path": "/industries/other-industries/compatible-toner-cartridges-quality-yield-and-key-buying-considerations/"
+  },
+  {
+    "title": "How to Evaluate an Ergonomic Chair Manufacturer Before OEM Partnership",
+    "description": "Learn how to evaluate an ergonomic chair manufacturer before OEM partnership, including production capability, quality systems, testing standards, engineering support, and factory audit priorities.",
+    "category": "Industries",
+    "subcategory": "Other Industries",
+    "path": "/industries/other-industries/how-to-evaluate-an-ergonomic-chair-manufacturer-before-oem-partnership/"
+  },
+  {
+    "title": "From Inquiry to Delivery - The Complete B2B RF Filter Project Workflow",
+    "description": "A practical guide to the complete B2B RF filter sourcing process, from inquiry and evaluation to sampling, production, and delivery.",
+    "category": "Industries",
+    "subcategory": "Electronics and Semiconductor Industry",
+    "path": "/industries/electronics-and-semiconductor-industry/from-inquiry-to-delivery-the-complete-b2b-rf-filter-project-workflow/"
+  },
+  {
+    "title": "Smarter Metal Parts Sourcing - Why One-Stop Manufacturing Often Reduces Risk More Effectively Than Multi-Vendor Sourcing",
+    "description": "One-stop manufacturing often reduces risk in metal parts projects by connecting tooling, die casting, machining, inspection, and delivery within a more integrated workflow. Compared with multi-vendor sourcing, it can improve lead time control, accountability, and quality consistency across the full production process.",
+    "category": "Industries",
+    "subcategory": "Precision Machining and Metal Processing",
+    "path": "/industries/precision-machining-and-metal-processing/smarter-metal-parts-sourcing-why-one-stop-manufacturing-often-reduces-risk-more-effectively-than-multi-vendor-sourcing/"
+  },
+  {
+    "title": "How Miniaturized Medical Connectors Are Redefining Device Design",
+    "description": "Miniaturized medical connectors are changing device design by increasing the importance of functional density, manufacturability, and long-term reliability in compact systems. As medical devices become smaller and more integrated, connector performance now depends on how well size reduction is balanced with structural stability and production feasibility.",
+    "category": "Industries",
+    "subcategory": "Biotechnology and Medical Industry",
+    "path": "/industries/biotechnology-and-medical-industry/how-miniaturized-medical-connectors-are-redefining-device-design/"
+  },
+  {
+    "title": "How Miniaturized Medical Connectors Are Redefining Device Design",
+    "description": "Miniaturized medical connectors are changing device design by increasing the importance of functional density, manufacturability, and long-term reliability in compact systems. As medical devices become smaller and more integrated, connector performance now depends on how well size reduction is balanced with structural stability and production feasibility.",
+    "category": "Industries",
+    "subcategory": "Chemical and Materials Industry",
+    "path": "/industries/chemical-and-materials-industry/how-miniaturized-medical-connectors-are-redefining-device-design/"
+  },
+  {
+    "title": "Why PFAS-Free Paper Food Containers Matter More Than Ever",
+    "description": "PFAS-free paper food containers are becoming more important as packaging decisions increasingly depend on chemical transparency, regulatory readiness, and real-use performance. For foodservice and export markets, PFAS-free design is emerging as a more practical direction for lower-risk paper packaging.",
+    "category": "Industries",
+    "subcategory": "Other Industries",
+    "path": "/industries/other-industries/why-pfas-free-paper-food-containers-matter-more-than-ever/"
+  },
+  {
+    "title": "Strategic Insights - The Evolution of Pneumatic Sanders in Automotive Refinishing and EV Manufacturing",
+    "description": "Explore how pneumatic sanders are evolving in automotive refinishing and EV manufacturing, from ergonomic innovation and dust-free sanding to AI-driven force control and smart air system integration.",
+    "category": "Industries",
+    "subcategory": "Other Industries",
+    "path": "/industries/other-industries/strategic-insights-the-evolution-of-pneumatic-sanders-in-automotive-refinishing-and-ev-manufacturing/"
+  },
+  {
+    "title": "Recurve vs. Compound Crossbow in 2026 - Reliability and Manufacturing Insights",
+    "description": "A neutral 2026 comparison of recurve and compound crossbows through the lens of reliability, maintenance, product architecture, and OEM ODM manufacturing considerations.",
+    "category": "Industries",
+    "subcategory": "Other Industries",
+    "path": "/industries/other-industries/recurve-vs-compound-crossbow-in-2026-reliability-and-manufacturing-insights/"
+  },
+  {
     "title": "Mastering E-Bike Frame Design for OEM Success: A Comprehensive Guide for Brand Owners and Procurement Professionals",
     "description": "Explore the critical factors in E-bike frame design for OEM projects, from material selection and motor integration to compliance standards and supply chain optimization.",
     "category": "Industries",
