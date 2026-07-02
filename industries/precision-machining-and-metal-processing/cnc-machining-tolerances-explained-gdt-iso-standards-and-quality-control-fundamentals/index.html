@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CNC Machining Tolerances Explained: GD&amp;T, ISO Standards, and Quality Control Fundamentals | Global Custom Manufacturing Insights</title>
+    <meta name="description" content="A practical guide to CNC machining tolerances for engineers and procurement professionals. Covers GD&amp;T basics, ISO 2768 standard classifications, surface roughness specifications, CMM inspection, and how tolerance decisions affect cost and manufacturability." />
+    <meta property="og:title" content="CNC Machining Tolerances Explained: GD&amp;T, ISO Standards, and Quality Control Fundamentals | Global Custom Manufacturing Insights" />
+    <meta property="og:description" content="A practical guide to CNC machining tolerances for engineers and procurement professionals. Covers GD&amp;T basics, ISO 2768 standard classifications, surface roughness specifications, CMM inspection, and how tolerance decisions affect cost and manufacturability." />
+    <meta property="og:url" content="/industries/precision-machining-and-metal-processing/cnc-machining-tolerances-explained-gdt-iso-standards-and-quality-control-fundamentals/" />
+    <link rel="icon" type="image/jpeg" href="/assets/logo.2d4c3ae41aed.jpg" />
+    <link rel="apple-touch-icon" href="/assets/logo.2d4c3ae41aed.jpg" />
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P9MWBWQJ');</script>
+    <!-- End Google Tag Manager -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/assets/site.f06a3b884434.css" />
+  </head>
+  <body class="bg-[var(--color-background)] text-[var(--color-text)]">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9MWBWQJ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <a
+      class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:text-slate-900 focus:shadow"
+      href="#main-content"
+    >
+      Skip to main content
+    </a>
+    <div id="main-content">
+      <header class="sticky top-0 z-40 border-b border-slate-200 bg-white/80 backdrop-blur">
+  <nav class="mx-auto flex w-full max-w-6xl items-center justify-between gap-3 px-4 py-4 sm:px-6" aria-label="Primary">
+    <a class="flex min-w-0 items-center gap-3" href="/" aria-label="Back to home">
+      <img class="h-10 w-10 shrink-0 rounded-full object-cover" src="/assets/logo.2d4c3ae41aed.jpg" alt="Global Custom Manufacturing Insights logo" />
+      <div class="min-w-0">
+        <p class="text-sm font-semibold leading-snug sm:text-base lg:text-lg">Global Custom Manufacturing Insights</p>
+        <p class="mt-1 hidden text-[10px] uppercase tracking-[0.2em] text-slate-500 sm:block">Custom Manufacturing, OEM/ODM, Machining, and Industrial Supply Chain Knowledge Hub</p>
+      </div>
+    </a>
+    <div class="flex min-w-0 flex-1 items-center justify-end gap-2 sm:gap-3">
+      <div class="nav-scroll hidden min-w-0 flex-1 items-center gap-2 overflow-x-auto whitespace-nowrap pb-1 md:flex">
+        <a class="rounded-full border px-3 py-1 text-sm font-medium transition-colors duration-200 border-transparent text-slate-600 hover:border-blue-600 hover:text-blue-600" href="/about/">About</a><a class="rounded-full border px-3 py-1 text-sm font-medium transition-colors duration-200 border-blue-600 bg-blue-50 text-blue-700" href="/industries/">Industries</a>
+      </div>
+      <button
+        class="inline-flex h-11 shrink-0 cursor-pointer items-center gap-2 rounded-full border border-slate-300 px-2 text-xs uppercase tracking-[0.2em] transition-colors duration-200 hover:border-blue-600 hover:text-blue-600 sm:px-4"
+        data-search-open
+        type="button"
+        aria-haspopup="dialog"
+        aria-controls="search-modal"
+        aria-label="Open search"
+      >
+        <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle>
+          <line x1="20" y1="20" x2="16.5" y2="16.5"></line>
+        </svg>
+        <span class="hidden sm:inline">Search</span>
+      </button>
+      <button
+        class="inline-flex h-11 w-11 shrink-0 cursor-pointer items-center justify-center rounded-full border border-slate-300 text-slate-700 transition-colors duration-200 hover:border-blue-600 hover:text-blue-600 md:hidden"
+        type="button"
+        data-nav-toggle
+        aria-controls="primary-navigation"
+        aria-expanded="false"
+        aria-label="Toggle menu"
+      >
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="4" y1="7" x2="20" y2="7"></line>
+          <line x1="4" y1="12" x2="20" y2="12"></line>
+          <line x1="4" y1="17" x2="20" y2="17"></line>
+        </svg>
+      </button>
+    </div>
+  </nav>
+  <div class="border-t border-slate-200 bg-white/95 md:hidden" data-nav-menu id="primary-navigation" hidden>
+    <div class="mx-auto flex max-w-6xl flex-wrap items-center gap-2 px-4 py-3 sm:px-6">
+      <a class="rounded-full border px-3 py-1 text-sm font-medium transition-colors duration-200 border-transparent text-slate-600 hover:border-blue-600 hover:text-blue-600" href="/about/">About</a><a class="rounded-full border px-3 py-1 text-sm font-medium transition-colors duration-200 border-blue-600 bg-blue-50 text-blue-700" href="/industries/">Industries</a>
+    </div>
+  </div>
+</header>
+
+<main class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
+  
+    <nav class="mt-4 mb-4 text-sm text-slate-500" aria-label="Breadcrumb">
+      <ol class="flex flex-wrap items-center gap-2"><li><a class="hover:text-slate-700" href="/">Home</a></li><li class="text-slate-300">/</li><li><a class="hover:text-slate-700" href="/industries/">Industries</a></li><li class="text-slate-300">/</li><li><a class="hover:text-slate-700" href="/industries/precision-machining-and-metal-processing/">Precision Machining and Metal Processing</a></li><li class="text-slate-300">/</li><li class="text-slate-700 font-medium" aria-current="page">CNC Machining Tolerances Explained: GD&amp;T, ISO Standards, and Quality Control Fundamentals</li></ol>
+    </nav>
+  
+  <div class="grid gap-8 lg:gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(200px,240px)]">
+    <article class="min-w-0">
+      <div class="lg:hidden mb-6 rounded border border-slate-200 p-4">
+        <button
+          type="button"
+          class="flex w-full items-center justify-between text-sm font-semibold"
+          data-toc-toggle
+          aria-expanded="false"
+        >
+          <span>On this page</span>
+          <span class="text-slate-500">Toggle</span>
+        </button>
+        <div class="mt-3" data-toc-panel hidden aria-hidden="true">
+          <ul class="space-y-2 text-sm text-slate-600 break-words">
+          <li>
+            <a data-toc-link="what-is-a-machining-tolerance" class="hover:text-blue-600" href="#what-is-a-machining-tolerance">What Is a Machining Tolerance?</a>
+            <ul class="ml-4 text-sm text-slate-600">
+              
+            </ul>
+          </li>
+          <li>
+            <a data-toc-link="general-tolerance-standards-iso-2768" class="hover:text-blue-600" href="#general-tolerance-standards-iso-2768">General Tolerance Standards: ISO 2768</a>
+            <ul class="ml-4 text-sm text-slate-600">
+              <li><a data-toc-link="iso-2768-linear-tolerance-classes" href="#iso-2768-linear-tolerance-classes">ISO 2768 Linear Tolerance Classes</a></li><li><a data-toc-link="iso-2768-form-tolerance-classes-part-2" href="#iso-2768-form-tolerance-classes-part-2">ISO 2768 Form Tolerance Classes (Part 2)</a></li>
+            </ul>
+          </li>
+          <li>
+            <a data-toc-link="geometric-dimensioning-and-tolerancing-gdt" class="hover:text-blue-600" href="#geometric-dimensioning-and-tolerancing-gdt">Geometric Dimensioning and Tolerancing (GD&amp;T)</a>
+            <ul class="ml-4 text-sm text-slate-600">
+              <li><a data-toc-link="key-gdt-symbols-and-their-meaning" href="#key-gdt-symbols-and-their-meaning">Key GD&amp;T Symbols and Their Meaning</a></li><li><a data-toc-link="datums-the-foundation-of-gdt" href="#datums-the-foundation-of-gdt">Datums: The Foundation of GD&amp;T</a></li>
+            </ul>
+          </li>
+          <li>
+            <a data-toc-link="surface-roughness-ra-rz-and-specification" class="hover:text-blue-600" href="#surface-roughness-ra-rz-and-specification">Surface Roughness: Ra, Rz, and Specification</a>
+            <ul class="ml-4 text-sm text-slate-600">
+              
+            </ul>
+          </li>
+          <li>
+            <a data-toc-link="quality-control-and-inspection-methods" class="hover:text-blue-600" href="#quality-control-and-inspection-methods">Quality Control and Inspection Methods</a>
+            <ul class="ml-4 text-sm text-slate-600">
+              <li><a data-toc-link="coordinate-measuring-machines-cmm" href="#coordinate-measuring-machines-cmm">Coordinate Measuring Machines (CMM)</a></li><li><a data-toc-link="in-process-gauging" href="#in-process-gauging">In-Process Gauging</a></li><li><a data-toc-link="statistical-process-control-spc" href="#statistical-process-control-spc">Statistical Process Control (SPC)</a></li>
+            </ul>
+          </li>
+          <li>
+            <a data-toc-link="faq" class="hover:text-blue-600" href="#faq">FAQ</a>
+            <ul class="ml-4 text-sm text-slate-600">
+              
+            </ul>
+          </li>
+          <li>
+            <a data-toc-link="conclusion" class="hover:text-blue-600" href="#conclusion">Conclusion</a>
+            <ul class="ml-4 text-sm text-slate-600">
+              
+            </ul>
+          </li></ul>
+        </div>
+      </div>
+      <h1 class="text-3xl font-semibold">CNC Machining Tolerances Explained: GD&amp;T, ISO Standards, and Quality Control Fundamentals</h1>
+      <p class="text-sm text-slate-500">Jun 24, 2026</p>
+      <p class="mt-3 text-slate-700">A practical guide to CNC machining tolerances for engineers and procurement professionals. Covers GD&amp;T basics, ISO 2768 standard classifications, surface roughness specifications, CMM inspection, and how tolerance decisions affect cost and manufacturability.</p>
+      <div class="prose prose-slate mt-8 max-w-none"><h1>CNC Machining Tolerances Explained: GD&amp;T, ISO Standards, and Quality Control Fundamentals</h1>
+<p><img src="http://products.com.tw/wp-content/uploads/2026/06/cnc-machining-tolerances-gdt.jpeg" alt=""></p>
+<p>Dimensional tolerances define the permissible variation in a machined part's geometry. They are the bridge between a designer's intent and a manufacturer's capability — and they have direct, significant implications for part cost, inspection rigor, and functional performance. For engineers specifying new parts, procurement professionals evaluating machining quotes, and quality managers reviewing inspection documentation, understanding tolerance fundamentals is essential.</p>
+<p>This guide provides a practical overview of CNC machining tolerance systems, the standards that govern them, and the quality control methods used to verify conformance.</p>
+<hr>
+<h2 id="what-is-a-machining-tolerance">What Is a Machining Tolerance?</h2>
+<p>A tolerance defines the allowable range of deviation from a nominal (target) dimension. A shaft specified as 25.000 mm ± 0.025 mm may be manufactured anywhere between 24.975 mm and 25.025 mm and still meet specification. The tolerance range is 0.050 mm.</p>
+<p>Tolerances exist because no manufacturing process produces perfectly identical dimensions across all parts. Material variability, tool deflection, thermal expansion, machine backlash, and fixture inconsistency all introduce dimensional variation. Tolerances communicate how much variation is acceptable without compromising the part's function.</p>
+<p>The cost of manufacturing a part increases non-linearly as tolerances tighten. A part requiring ±0.05 mm is generally straightforward for a modern CNC machining center. A part requiring ±0.005 mm requires more precise fixtures, slower cutting speeds, temperature-controlled environments, and more rigorous inspection — each factor multiplying cost. Parts requiring ±0.001 mm or tighter move into ultra-precision machining territory, requiring specialized equipment and 100% inspection.</p>
+<p>Understanding which features on a given part truly need tight tolerances — and which can tolerate more generous variation — is one of the most important cost management levers available to design engineers.</p>
+<hr>
+<h2 id="general-tolerance-standards-iso-2768">General Tolerance Standards: ISO 2768</h2>
+<p>For features where the engineering drawing does not specify an explicit tolerance, general tolerance standards define the default allowable variation. ISO 2768 is the dominant international standard for this purpose, applicable to linear dimensions, angular dimensions, and form tolerances on CNC machined parts.</p>
+<h3 id="iso-2768-linear-tolerance-classes">ISO 2768 Linear Tolerance Classes</h3>
+<p>ISO 2768 defines four tolerance classes for linear dimensions:</p>
+<table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Symbol</th>
+<th>Description</th>
+<th>Typical Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fine</td>
+<td>f</td>
+<td>Tightest general tolerance</td>
+<td>Precision instruments, demanding assemblies</td>
+</tr>
+<tr>
+<td>Medium</td>
+<td>m</td>
+<td>Standard for most precision machined parts</td>
+<td>General CNC machining</td>
+</tr>
+<tr>
+<td>Coarse</td>
+<td>c</td>
+<td>Wider tolerance for less critical dimensions</td>
+<td>Rougher machined features, castings</td>
+</tr>
+<tr>
+<td>Very Coarse</td>
+<td>v</td>
+<td>Widest general tolerance</td>
+<td>Very rough machined surfaces</td>
+</tr>
+</tbody>
+</table>
+<p>For a shaft diameter in the 30–120 mm range as an example:</p>
+<ul>
+<li>Class f: ±0.1 mm</li>
+<li>Class m: ±0.2 mm</li>
+<li>Class c: ±0.5 mm</li>
+</ul>
+<p>An engineering drawing that specifies &quot;ISO 2768-m&quot; sets the medium general tolerance as the default for all dimensions without explicit tolerance callouts. Critical features — mating bores, locating surfaces, thread engagement lengths — receive their own tighter tolerances explicitly noted on the drawing.</p>
+<h3 id="iso-2768-form-tolerance-classes-part-2">ISO 2768 Form Tolerance Classes (Part 2)</h3>
+<p>ISO 2768 Part 2 addresses geometric tolerances for form (straightness, flatness, roundness) and run-out. Four classes (H, K, L, and very coarse) define permissible geometric deviations for surfaces and features without explicit geometric tolerance callouts.</p>
+<hr>
+<h2 id="geometric-dimensioning-and-tolerancing-gdt">Geometric Dimensioning and Tolerancing (GD&amp;T)</h2>
+<p>GD&amp;T is a symbolic language used on engineering drawings to communicate the allowable variation in the form, orientation, location, and size of features — beyond what simple dimensional tolerances can express.</p>
+<p>Unlike a dimensional tolerance, which controls only a feature's size, GD&amp;T controls the relationship between features. Consider a bolt pattern: you need to know not only that each hole is the right diameter, but that the holes are correctly positioned relative to each other and to the datum reference surfaces. GD&amp;T provides the tools to specify these relationships unambiguously.</p>
+<h3 id="key-gdt-symbols-and-their-meaning">Key GD&amp;T Symbols and Their Meaning</h3>
+<p><strong>Flatness (⏥)</strong>: Controls the deviation of a surface from a perfect flat plane. A flatness callout of 0.02 means the surface must lie between two parallel planes separated by 0.02 mm.</p>
+<p><strong>Cylindricity (⌀ with circle)</strong>: Controls the form of a cylindrical surface — its roundness and straightness simultaneously. Tighter than a roundness callout alone, and more comprehensive than a diameter tolerance.</p>
+<p><strong>Position (⊕)</strong>: The most widely used GD&amp;T callout, controlling where the axis or center plane of a feature is located relative to datum references. Position tolerance zones are typically cylindrical (for hole axes) or planar, and the tolerance value is a diameter.</p>
+<p><strong>Perpendicularity (⊥)</strong>: Controls the angular relationship between a surface or axis and a datum plane. A perpendicularity callout ensures a hole is drilled squarely relative to the part face, not just in the right location.</p>
+<p><strong>Runout</strong>: Circular runout controls how much a surface varies during one full rotation about a datum axis. Total runout controls the accumulated effect across the full surface.</p>
+<p><strong>Profile of a surface (⌓ with line)</strong>: A powerful callout for complex surfaces (curves, cams, aerodynamic profiles) that controls all elements of the surface relative to the nominal form and datum references. Widely used in aerospace and medical device machining.</p>
+<h3 id="datums-the-foundation-of-gdt">Datums: The Foundation of GD&amp;T</h3>
+<p>GD&amp;T measurements are made relative to datum reference frames — defined surfaces, axes, or points that establish the coordinate system for the part. Datum selection directly affects how the part is fixtured during machining and inspection. Inconsistency between machining datums and inspection datums is a common source of conformance disputes between manufacturers and customers.</p>
+<p>Engineering drawings should specify datum priority (primary, secondary, tertiary) to define the three-point datum reference frame used for both manufacturing and inspection. Aligning these assumptions between the design team, machining shop, and quality lab prevents costly rework and re-inspection.</p>
+<hr>
+<h2 id="surface-roughness-ra-rz-and-specification">Surface Roughness: Ra, Rz, and Specification</h2>
+<p>Surface roughness — the micro-scale texture of a machined surface — is a separate quality parameter from dimensional tolerances but equally important for parts that seal, slide, or mate with other components.</p>
+<p><strong>Ra (arithmetic mean roughness)</strong>: The most commonly specified roughness parameter, representing the average deviation of the surface profile from the mean line. Expressed in µm (micrometers) or µin (microinches).</p>
+<p><strong>Rz (mean roughness depth)</strong>: The average of the five largest peak-to-valley heights in the evaluation length. More sensitive to extreme surface events (scratches, tool marks) than Ra and preferred in some industries for surfaces that must resist fatigue crack initiation.</p>
+<p>Typical Ra values by machining process:</p>
+<ul>
+<li>Rough turning: Ra 6.3–12.5 µm</li>
+<li>Standard CNC milling: Ra 1.6–3.2 µm</li>
+<li>CNC turning (semi-finish): Ra 0.8–1.6 µm</li>
+<li>Precision grinding: Ra 0.2–0.8 µm</li>
+<li>Honing: Ra 0.1–0.4 µm</li>
+<li>Superfinishing: Ra &lt; 0.05 µm</li>
+</ul>
+<p>Surface roughness specifications should be applied to functionally critical surfaces only. Requiring Ra 0.4 µm across an entire machined part when only two sealing surfaces actually need that finish adds cost throughout the production process.</p>
+<hr>
+<h2 id="quality-control-and-inspection-methods">Quality Control and Inspection Methods</h2>
+<h3 id="coordinate-measuring-machines-cmm">Coordinate Measuring Machines (CMM)</h3>
+<p>CMMs are the standard instrument for verifying dimensional and geometric tolerances on precision machined parts. A CMM uses a touch-trigger or scanning probe to collect three-dimensional coordinate data from part surfaces, which software then compares to nominal CAD geometry or drawing dimensions.</p>
+<p>CMM inspection provides:</p>
+<ul>
+<li>Direct measurement of position, runout, flatness, perpendicularity, and other GD&amp;T callouts</li>
+<li>Statistical process control data for identifying systematic manufacturing drift</li>
+<li>First article inspection (FAI) reports for new part qualification</li>
+<li>Documented measurement traceability to national standards</li>
+</ul>
+<p>CMM measurement uncertainty is typically reported on inspection reports. Measurement uncertainty should be at minimum 10:1 smaller than the tolerance being verified (the 10:1 measurement uncertainty ratio or gaging ratio) — meaning that inspecting a 0.010 mm tolerance requires a CMM with ≤ 0.001 mm measurement uncertainty for that measurement.</p>
+<h3 id="in-process-gauging">In-Process Gauging</h3>
+<p>For high-volume production, in-process gauging at the CNC machine — using probes mounted in the machine spindle or beside the machine — allows dimensional verification without removing the part from the fixture. This enables:</p>
+<ul>
+<li>Tool wear compensation based on actual part measurements</li>
+<li>Early detection of out-of-tolerance trends before the part is complete</li>
+<li>Reduced reliance on post-process CMM inspection for dimensions that can be verified in-machine</li>
+</ul>
+<h3 id="statistical-process-control-spc">Statistical Process Control (SPC)</h3>
+<p>SPC applies statistical analysis to inspection data collected from a production run to distinguish common-cause variation (inherent to the process, stable) from special-cause variation (indicating a process problem requiring investigation). Key SPC metrics include:</p>
+<p><strong>Cp (process capability)</strong>: Ratio of the tolerance range to 6 standard deviations of process variation. Cp &gt; 1.33 indicates a capable process; Cp &gt; 1.67 indicates a very capable process.</p>
+<p><strong>Cpk (centered process capability)</strong>: Adjusts Cp for process centering — how close the process mean is to the nominal target. A process can have high Cp but low Cpk if it is capable but running consistently off-center.</p>
+<p>Customer quality agreements for precision machined parts increasingly specify minimum Cpk requirements (commonly 1.33 or 1.67) for critical dimensions, requiring the machining supplier to provide ongoing SPC data as part of the production supply arrangement.</p>
+<hr>
+<h2 id="faq">FAQ</h2>
+<p><strong>Q: Should I specify GD&amp;T or ± tolerances on my machining drawings?</strong>
+A: For parts with simple geometric requirements — flat surfaces, turned diameters, simple hole patterns — ± tolerances with appropriate ISO 2768 general tolerance classes are often sufficient and easier to inspect. For parts with complex assembly requirements, critical location of features relative to each other, or surfaces that must seal or mate precisely, GD&amp;T provides clearer communication of functional requirements and enables more efficient, unambiguous inspection. Many industry standards (aerospace AS9100, automotive IATF 16949) require GD&amp;T for safety-critical features.</p>
+<p><strong>Q: How do I know if a CNC machining supplier can actually hold the tolerances specified?</strong>
+A: Request process capability data (Cpk values) for the specific feature types and dimensions you are specifying. A reputable precision machining supplier can provide Cpk data from recent production runs on similar features. Additionally, request their measurement system's calibration certificates for the instruments used to inspect those dimensions. First article inspection reports on a pilot order, with measurement uncertainty stated, provide direct evidence of capability before committing to production volumes.</p>
+<hr>
+<h2 id="conclusion">Conclusion</h2>
+<p>CNC machining tolerances are not arbitrary numbers — they communicate functional requirements, determine manufacturing process choices, and define inspection methods. Engineers who understand the cost implications of tight tolerances can design more efficiently. Procurement professionals who can read and evaluate tolerance specifications are better equipped to assess supplier capability and avoid costly rework discoveries late in the supply chain.</p>
+<p>The foundation — ISO 2768 general tolerances for non-critical features, explicit GD&amp;T callouts for functional requirements, and CMM-backed inspection with SPC data for production assurance — applies across industries from automotive to medical devices to precision instruments.</p>
+<p>For manufacturing operations that process complex multi-feature parts with demanding tolerance requirements, establishing clear tolerance communication standards with machining suppliers, and requesting documented process capability data from the outset, creates the conditions for consistent quality and reduced inspection burden at goods receipt.</p>
+</div>
+      
+      
+          <section class="mt-12 border-t border-slate-200 pt-6">
+            <h2 class="text-lg font-semibold">Related links</h2>
+            <ul class="mt-4 flex flex-wrap gap-3 text-sm">
+              <li><a class="link-primary rounded border border-slate-200 px-3 py-1 hover:border-blue-600" href="/industries/precision-machining-and-metal-processing/304-vs-316-stainless-steel-enclosure-hinges-latch-locks/">304 vs. 316 Stainless Steel Enclosure Hinges &amp; Latch Locks</a></li><li><a class="link-primary rounded border border-slate-200 px-3 py-1 hover:border-blue-600" href="/industries/precision-machining-and-metal-processing/understanding-precision-machining-tolerances-a-practical-guide-to-gdt-iso-standards-and-quality-control/">Understanding Precision Machining Tolerances: A Practical Guide to GD&amp;T, ISO Standards, and Quality Control</a></li><li><a class="link-primary rounded border border-slate-200 px-3 py-1 hover:border-blue-600" href="/industries/precision-machining-and-metal-processing/custom-cnc-slot-car-hubs-oemodm-sourcing-guide-from-taiwan/">Custom CNC Slot Car Hubs - OEM/ODM Sourcing Guide from Taiwan</a></li>
+            </ul>
+          </section>
+        
+    </article>
+    <aside class="hidden lg:block sticky top-24 h-fit min-w-0">
+      <p class="text-sm font-semibold">On this page</p>
+      <ul class="mt-2 space-y-2 text-sm text-slate-600 break-words">
+          <li>
+            <a data-toc-link="what-is-a-machining-tolerance" class="hover:text-blue-600" href="#what-is-a-machining-tolerance">What Is a Machining Tolerance?</a>
+            <ul class="ml-4 text-sm text-slate-600">
+              
+            </ul>
+          </li>
+          <li>
+            <a data-toc-link="general-tolerance-standards-iso-2768" class="hover:text-blue-600" href="#general-tolerance-standards-iso-2768">General Tolerance Standards: ISO 2768</a>
+            <ul class="ml-4 text-sm text-slate-600">
+              <li><a data-toc-link="iso-2768-linear-tolerance-classes" href="#iso-2768-linear-tolerance-classes">ISO 2768 Linear Tolerance Classes</a></li><li><a data-toc-link="iso-2768-form-tolerance-classes-part-2" href="#iso-2768-form-tolerance-classes-part-2">ISO 2768 Form Tolerance Classes (Part 2)</a></li>
+            </ul>
+          </li>
+          <li>
+            <a data-toc-link="geometric-dimensioning-and-tolerancing-gdt" class="hover:text-blue-600" href="#geometric-dimensioning-and-tolerancing-gdt">Geometric Dimensioning and Tolerancing (GD&amp;T)</a>
+            <ul class="ml-4 text-sm text-slate-600">
+              <li><a data-toc-link="key-gdt-symbols-and-their-meaning" href="#key-gdt-symbols-and-their-meaning">Key GD&amp;T Symbols and Their Meaning</a></li><li><a data-toc-link="datums-the-foundation-of-gdt" href="#datums-the-foundation-of-gdt">Datums: The Foundation of GD&amp;T</a></li>
+            </ul>
+          </li>
+          <li>
+            <a data-toc-link="surface-roughness-ra-rz-and-specification" class="hover:text-blue-600" href="#surface-roughness-ra-rz-and-specification">Surface Roughness: Ra, Rz, and Specification</a>
+            <ul class="ml-4 text-sm text-slate-600">
+              
+            </ul>
+          </li>
+          <li>
+            <a data-toc-link="quality-control-and-inspection-methods" class="hover:text-blue-600" href="#quality-control-and-inspection-methods">Quality Control and Inspection Methods</a>
+            <ul class="ml-4 text-sm text-slate-600">
+              <li><a data-toc-link="coordinate-measuring-machines-cmm" href="#coordinate-measuring-machines-cmm">Coordinate Measuring Machines (CMM)</a></li><li><a data-toc-link="in-process-gauging" href="#in-process-gauging">In-Process Gauging</a></li><li><a data-toc-link="statistical-process-control-spc" href="#statistical-process-control-spc">Statistical Process Control (SPC)</a></li>
+            </ul>
+          </li>
+          <li>
+            <a data-toc-link="faq" class="hover:text-blue-600" href="#faq">FAQ</a>
+            <ul class="ml-4 text-sm text-slate-600">
+              
+            </ul>
+          </li>
+          <li>
+            <a data-toc-link="conclusion" class="hover:text-blue-600" href="#conclusion">Conclusion</a>
+            <ul class="ml-4 text-sm text-slate-600">
+              
+            </ul>
+          </li></ul>
+    </aside>
+  </div>
+</main>
+
+    </div>
+    <footer class="border-t border-slate-200 bg-white/80">
+      <div class="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-6 text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between sm:px-6">
+        <p>Copyright © GCMI. Global Custom Manufacturing Insights All rights reserved</p>
+        <p>
+          Relative Platform of <a class="font-semibold text-slate-700 hover:text-blue-600" href="https://www.market-prospects.com/" target="_blank" rel="noopener noreferrer">Market Prospects</a>
+        </p>
+        <p><a class="font-semibold text-slate-700 hover:text-blue-600" href="/sitemap/">Sitemap</a></p>
+      </div>
+    </footer>
+    <div
+      id="search-modal"
+      class="fixed inset-0 z-50 hidden overscroll-contain"
+      data-search-modal
+      aria-hidden="true"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="search-modal-title"
+    >
+      <button
+        class="absolute inset-0 bg-slate-950/40"
+        type="button"
+        data-search-overlay
+        aria-label="Close search"
+      ></button>
+      <div class="relative mx-auto flex min-h-full max-w-2xl items-center justify-center px-6">
+        <div class="flex max-h-[calc(100vh-6rem)] w-full flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-xl">
+          <div class="flex items-center justify-between">
+            <div>
+              <p class="text-xs uppercase tracking-[0.3em] text-slate-400">Search</p>
+              <h2 class="mt-2 text-xl font-semibold" id="search-modal-title">
+                Find Articles
+              </h2>
+            </div>
+            <button
+              class="rounded-full border border-slate-300 px-3 py-1 text-xs uppercase tracking-[0.2em] transition-colors duration-200 hover:border-blue-600 hover:text-blue-600"
+              data-search-close
+              type="button"
+            >
+              Close
+            </button>
+          </div>
+          <input
+            class="mt-6 w-full rounded-xl border border-slate-300 px-4 py-3 text-sm"
+            type="search"
+            name="search"
+            autocomplete="off"
+            placeholder="Search by company, category, or keyword… e.g. gearboxes"
+            data-search-input
+            aria-label="Search reports and vendors"
+          />
+          <p
+            class="mt-3 text-xs uppercase tracking-[0.2em] text-slate-400"
+            data-search-count
+            aria-live="polite"
+          ></p>
+          <ul class="mt-6 min-h-0 flex-1 space-y-4 overflow-y-auto pr-2" data-search-results></ul>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/assets/search.61597a69ffdc.js" defer></script>
+    <script src="/assets/show-more.a02df95bbb64.js" defer></script>
+    <script src="/assets/hero-rotator.ba830c04a77e.js" defer></script>
+    <script src="/assets/nav.8431637c67e5.js" defer></script>
+    <script src="/assets/toc.168ce7a6341d.js" defer></script>
+  </body>
+</html>
