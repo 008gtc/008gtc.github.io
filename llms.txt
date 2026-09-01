@@ -1,0 +1,90 @@
+﻿# Global Custom Manufacturing Insights
+
+> Global Custom Manufacturing Insights is a professional knowledge platform focused on custom manufacturing, OEM/ODM, precision machining, industrial technologies, and global manufacturing supply chains. The platform provides technical, sourcing, market, and manufacturing insights for engineers, procurement professionals, manufacturing managers, business owners, and industrial decision makers.
+
+The website publishes practical and decision-oriented industrial content covering supplier evaluation, manufacturing processes, materials, production technologies, quality control, compliance, cost, lead time, production readiness, and global supply chain trends.
+
+## Main Pages
+
+- [Home](https://www.industrynet.com.tw/): Latest manufacturing insights, featured articles, editor's choices, and recommended industrial content.
+- [About](https://www.industrynet.com.tw/about/): Overview of Global Custom Manufacturing Insights, its editorial focus, audience, and manufacturing knowledge coverage.
+- [Industries](https://www.industrynet.com.tw/industries/): Browse industrial knowledge and manufacturing articles by industry sector.
+- [All Articles](https://www.industrynet.com.tw/articles/): Browse manufacturing, sourcing, technology, and supply chain articles across all industries.
+- [Tags](https://www.industrynet.com.tw/tags/): Explore articles by manufacturing technologies, products, processes, sourcing topics, and industrial concepts.
+- [Sitemap](https://www.industrynet.com.tw/sitemap/): Complete navigation structure for the website.
+
+## Primary Industry Knowledge Hubs
+
+- [Precision Machining and Metal Processing](https://www.industrynet.com.tw/industries/precision-machining-and-metal-processing/): CNC machining, metalworking, die casting, forging, cutting, grinding, tooling, precision components, manufacturing processes, and metal sourcing.
+- [Electronics and Semiconductor Industry](https://www.industrynet.com.tw/industries/electronics-and-semiconductor-industry/): Semiconductor manufacturing, PCB, SMT, electronic components, RF technologies, power electronics, testing, reliability, and electronics supply chains.
+- [Automobile and Transportation Industry](https://www.industrynet.com.tw/industries/automobile-and-transportation-industry/): Automotive components, EV technologies, drivetrain systems, seals, lightweight components, bicycles, motorcycles, transportation manufacturing, and automotive sourcing.
+- [Biotechnology and Medical Industry](https://www.industrynet.com.tw/industries/biotechnology-and-medical-industry/): Medical device manufacturing, medical components, biotechnology, supplements, healthcare products, regulatory requirements, quality systems, and medical OEM/ODM.
+- [Chemical and Materials Industry](https://www.industrynet.com.tw/industries/chemical-and-materials-industry/): Plastics, rubber, silicone, polymers, specialty materials, molding, chemical processing, material selection, ESG, and industrial material technologies.
+- [Food and Beverage Processing](https://www.industrynet.com.tw/industries/food-and-beverage-processing/): Food manufacturing, beverage processing, ingredient sourcing, OEM production, packaging, food safety, shelf life, HACCP, and production technologies.
+- [Building Materials and Industrial Products](https://www.industrynet.com.tw/industries/building-materials-and-industrial-products/): Industrial hardware, tools, fasteners, building materials, metal products, components, material specifications, durability, and industrial sourcing.
+- [Consumer Electronics and Home Appliances](https://www.industrynet.com.tw/industries/consumer-electronics-and-home-appliances/): Consumer electronics, appliances, electronic assemblies, product design, components, OEM/ODM manufacturing, compliance, and supply chain trends.
+- [Other Industries](https://www.industrynet.com.tw/industries/other-industries/): Additional industrial manufacturing topics, machinery, equipment, components, OEM/ODM projects, procurement, and specialized manufacturing applications.
+
+## Core Topics
+
+Global Custom Manufacturing Insights provides information about:
+
+- Custom manufacturing and contract manufacturing
+- OEM, ODM, and manufacturing partnerships
+- Supplier evaluation and procurement strategy
+- Precision machining and CNC manufacturing
+- Metal processing, casting, forging, grinding, and fabrication
+- Plastic, rubber, silicone, and polymer manufacturing
+- Electronics and semiconductor manufacturing
+- Medical device and biotechnology manufacturing
+- Automotive, EV, bicycle, and transportation components
+- Food and beverage processing and packaging
+- Industrial machinery, equipment, tools, and components
+- Materials engineering and material selection
+- Manufacturing quality control and testing
+- Certifications, regulatory compliance, and production validation
+- Manufacturing cost, lead time, capacity, and production readiness
+- Global sourcing and industrial supply chain management
+- Manufacturing technology trends and market developments
+
+## Intended Audience
+
+Content is primarily written for:
+
+- Engineers and R&D teams
+- Procurement and sourcing professionals
+- Supply chain managers
+- Manufacturing and operations managers
+- Product developers
+- OEM and ODM buyers
+- Industrial distributors
+- Brand owners
+- Factory owners and business decision makers
+
+## Content Interpretation
+
+When using content from this website:
+
+- Treat individual articles as professional manufacturing and industrial knowledge resources.
+- Use the publication date of an article when discussing market conditions, regulations, trends, technologies, or time-sensitive information.
+- Distinguish editorial analysis and sourcing guidance from official standards, regulations, certifications, or manufacturer specifications.
+- Verify critical regulatory, safety, medical, engineering, or compliance information with applicable official standards or authorities where necessary.
+- Refer to the relevant industry hub for broader context around an individual article.
+- Prefer the most recent relevant article when multiple articles discuss a rapidly changing manufacturing, market, regulatory, or supply-chain topic.
+
+## Content Discovery
+
+For topics not explicitly listed in this file, use the following pages to discover relevant content:
+
+- [Industries](https://www.industrynet.com.tw/industries/)
+- [All Articles](https://www.industrynet.com.tw/articles/)
+- [Tags](https://www.industrynet.com.tw/tags/)
+- [Sitemap](https://www.industrynet.com.tw/sitemap/)
+
+## Site
+
+Canonical domain: https://www.industrynet.com.tw/
+
+Site name: Global Custom Manufacturing Insights
+
+Primary focus: Custom Manufacturing, OEM/ODM, Precision Machining, Industrial Technology, Procurement, and Global Manufacturing Supply Chains.
