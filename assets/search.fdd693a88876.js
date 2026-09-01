@@ -178,6 +178,12 @@ if (!input || !results) {
     input.addEventListener("input", update);
     update();
     updateResults = update;
+
+    const query = new URLSearchParams(window.location.search).get("q")?.trim();
+    if (query) {
+      input.value = query;
+      openModal();
+    }
   };
 
   setupSearch().catch((error) => {
