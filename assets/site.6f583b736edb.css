@@ -71,6 +71,20 @@ h3 {
   margin-top: 1rem;
 }
 
+.prose {
+  --article-h2-size: 1.75rem;
+}
+
+.prose h1 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-family: var(--font-heading);
+  font-size: calc(var(--article-h2-size) + 2pt);
+  line-height: 1.2;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
 .prose h2,
 .prose h3,
 .prose h4 {
@@ -81,7 +95,7 @@ h3 {
 }
 
 .prose h2 {
-  font-size: 1.75rem;
+  font-size: var(--article-h2-size);
   line-height: 1.25;
 }
 
